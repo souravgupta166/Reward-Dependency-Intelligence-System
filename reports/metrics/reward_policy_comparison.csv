@@ -1,0 +1,5 @@
+policy,test_customers,customers_targeted,targeting_rate_pct,simulated_purchases,simulated_purchase_rate_pct,estimated_revenue_eur,estimated_gross_profit_eur,estimated_reward_cost_eur,estimated_net_profit_eur,incremental_purchases_vs_no_rewards,incremental_net_profit_vs_no_rewards_eur,assumed_gross_margin_pct,standardized_reward_amount_eur,evaluation_basis
+No rewards,2000,0,0.0,922,46.1,44091.55,13227.46,0.0,13227.46,0,0.0,30.0,10.0,Held-out synthetic potential outcomes; estimated redemption costs
+Blanket rewards,2000,2000,100.0,1124,56.2,54257.42,16277.23,5712.64,10564.59,202,-2662.869999999999,30.0,10.0,Held-out synthetic potential outcomes; estimated redemption costs
+Oracle targeting (benchmark),2000,384,19.2,1019,50.95,48717.9,14615.37,2003.96,12611.41,97,-616.0499999999993,30.0,10.0,Held-out synthetic potential outcomes; estimated redemption costs
+Practical targeting (uplift model),2000,400,20.0,988,49.4,47259.63,14177.89,1840.47,12337.42,66,-890.039999999999,30.0,10.0,Held-out synthetic potential outcomes; estimated redemption costs

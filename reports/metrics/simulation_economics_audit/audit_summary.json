@@ -1,0 +1,17 @@
+{
+  "dataset_path": "C:\\Users\\E1546562\\reward-dependency-intelligence\\data\\raw\\reward_customer_data.csv",
+  "n_rows": 10000,
+  "unique_customer_ids": 10000,
+  "eligible_control_n": 4997,
+  "eligible_treatment_10_eur_n": 1265,
+  "eligible_n": 6262,
+  "empirical_treatment_propensity": 0.20201213669754073,
+  "observed_treatment_minus_control_net_contribution_per_customer_30pct_margin": -1.6377278071190524,
+  "observed_difference_ci_lower": -2.062856389759257,
+  "observed_difference_ci_upper": -1.212599224478848,
+  "truth_expected_blanket_net_benefit_per_10000_eligible_30pct_margin": -16760.156046820503,
+  "best_oracle_budget_pct_30pct_margin_baseline_redemption": 5,
+  "failed_checks": 0,
+  "error_checks": 0,
+  "warning_checks": 0
+}

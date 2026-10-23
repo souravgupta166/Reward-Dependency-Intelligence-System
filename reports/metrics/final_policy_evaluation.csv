@@ -1,0 +1,5 @@
+policy,test_customers,customers_targeted,targeting_rate_pct,estimated_net_profit_per_customer_eur,ci_95_lower_eur_per_customer,ci_95_upper_eur_per_customer,incremental_profit_per_customer_vs_control_eur,scaled_incremental_profit_per_10000_customers_eur,evaluation_method,gross_margin_assumption_pct
+No rewards,1233,0,0.0,6.1691,5.6669,6.6823,0.0,0.0,IPW on randomized held-out observations,30.0
+Blanket €10 rewards,1233,1233,100.0,5.3849,4.3685,6.4921,-0.7842000000000002,-7842.000000000003,IPW on randomized held-out observations,30.0
+Practical uplift targeting,1233,185,15.0,6.2315,5.659,6.8139,0.062399999999999345,623.9999999999934,IPW on randomized held-out observations,30.0
+Oracle benchmark (hidden labels),1233,234,18.98,5.7425,5.2437,6.3113,-0.42660000000000053,-4266.0000000000055,IPW on randomized held-out observations,30.0

@@ -1,0 +1,6 @@
+comparison,difference_per_customer_eur,ci_lower_eur_per_customer,ci_upper_eur_per_customer,difference_per_10000_eur,ci_lower_per_10000_eur,ci_upper_per_10000_eur
+Practical ML targeting minus Oracle same budget,0.0,0.0,0.0,0.0,0.0,0.0
+Practical ML targeting minus Oracle own budget,0.2825788108539505,-0.12630683858739028,0.6546326815642454,2825.7881085395047,-1263.0683858739028,6546.326815642454
+Oracle same budget minus Oracle own budget,0.2825788108539505,-0.11769770051875494,0.6692489275738227,2825.7881085395047,-1176.9770051875494,6692.489275738227
+Blanket €10 rewards minus Practical ML targeting,-1.621236033519553,-2.8368913607342376,-0.3959997256584212,-16212.36033519553,-28368.913607342376,-3959.9972565842118
+Practical ML targeting minus No rewards,0.0,0.0,0.0,0.0,0.0,0.0

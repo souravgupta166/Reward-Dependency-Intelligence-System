@@ -1,0 +1,2 @@
+modal_budget_pct,modal_budget_selection_frequency,median_selected_validation_value_per_customer_eur,lower_2_5pct_selected_validation_value_per_customer_eur,minimum_required_selection_frequency,conservative_rule_passed,final_conservative_budget_pct
+10.0,0.23333333333333334,0.23128242218675174,0.0,0.7,False,0.0

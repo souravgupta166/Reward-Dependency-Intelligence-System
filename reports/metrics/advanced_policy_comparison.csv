@@ -1,0 +1,5 @@
+policy,test_customers,customers_targeted,targeting_rate_pct,incremental_profit_per_customer_eur,paired_ci_lower_eur_per_customer,paired_ci_upper_eur_per_customer,scaled_incremental_profit_per_10000_customers_eur,true_expected_incremental_net_benefit_eur
+No rewards,1253,0,0.0,0.0,0.0,0.0,0.0,0.0
+Blanket €10 rewards,1253,1253,100.0,-1.203455706304868,-2.405830357142857,0.048765038906623204,-12034.55706304868,-2080.257754478
+Practical targeting,1253,0,0.0,0.0,0.0,0.0,0.0,0.0
+Simulation oracle,1253,63,5.03,-0.3058030726256983,-0.6403251446528331,0.04470169094173975,-3058.0307262569827,6.31910809099999

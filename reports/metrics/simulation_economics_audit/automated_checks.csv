@@ -1,0 +1,14 @@
+check,passed,severity,observed,expected,note
+row_count,True,WARNING,10000,"10,000 synthetic customers",
+customer_id_unique,True,ERROR,10000,10000,
+missing_required_values,True,ERROR,0,0,
+binary_flags_valid,True,ERROR,checked reward_offered/reward_redeemed/purchase,values only 0/1,
+probabilities_in_range,True,ERROR,checked,all probabilities between 0 and 1,
+discount_sensitivity_in_range,True,ERROR,"min=0.0100, max=0.9900",all values between 0 and 1,
+reward_cost_matches_redemption,True,ERROR,max absolute difference=0.00000000,reward_cost_eur = reward_redeemed * reward_amount_eur,
+redemption_requires_offer_and_purchase,True,ERROR,0,0,
+no_offer_has_zero_amount,True,ERROR,0,0,
+eligible_sample_nonempty,True,ERROR,6262,> 0,
+empirical_treatment_propensity_near_0_20,True,WARNING,0.20201,approximately 0.20,A large deviation may indicate changed assignment logic or a small/filtered sample.
+covariate_balance_abs_smd_under_0_10,True,WARNING,[],absolute SMD <= 0.10 for each available covariate,"Balance is a diagnostic, not proof of randomization."
+treatment_probability_not_below_control_on_average,True,WARNING,mean p0=0.4741; mean p1=0.5548,mean p1 >= mean p0 for this generator,Individual customers may still have zero or very small modeled uplift.

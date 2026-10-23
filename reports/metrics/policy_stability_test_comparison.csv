@@ -1,0 +1,6 @@
+policy,customers_targeted,targeting_rate_pct,incremental_profit_per_customer_eur,ci_lower_eur_per_customer,ci_upper_eur_per_customer,profit_per_10000_customers_eur,ci_lower_per_10000_eur,ci_upper_per_10000_eur,simulation_true_expected_benefit_eur,simulation_true_benefit_per_10000_eur
+No rewards,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Blanket €10 rewards,1253,100.0,-1.621236033519553,-2.881375374102155,-0.3152042098962496,-16212.36033519553,-28813.75374102155,-3152.042098962496,-2019.55953243,-16117.79355490822
+Practical ML targeting,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Oracle same budget,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Oracle own budget,63,5.027932960893855,-0.2825788108539505,-0.6624143804868315,0.12792707501995196,-2825.7881085395047,-6624.143804868316,1279.2707501995196,7.374958575999994,58.8584084277733
